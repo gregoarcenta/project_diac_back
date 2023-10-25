@@ -121,7 +121,7 @@ dist
 
 ### VisualStudioCode ###
 .vscode-test
-.vscode/*      # Maybe .vscode/**/* instead - see comments
+.vscode/*
 
 # yarn v2
 .yarn/cache
