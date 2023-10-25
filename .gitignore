@@ -122,10 +122,6 @@ dist
 ### VisualStudioCode ###
 .vscode-test
 .vscode/*      # Maybe .vscode/**/* instead - see comments
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 
 # yarn v2
 .yarn/cache
