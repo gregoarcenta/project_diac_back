@@ -13,12 +13,21 @@
     "spaced-comment": "warn",
     "eol-last": 0,
     "@typescript-eslint/no-unused-vars": "warn",
-    "@typescript-eslint/semi": ["error", "always"],
-    "@typescript-eslint/no-confusing-void-expression": "off",
+    "@typescript-eslint/semi": [
+      "error",
+      "always"
+    ],
     "@typescript-eslint/quotes": [
       "error",
-      "single",
-      { "avoidEscape": true, "allowTemplateLiterals": true }
-    ]
+      "double",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
+    "space-before-function-paren": "off",
+    "@typescript-eslint/space-before-function-paren": "off",
+    "@typescript-eslint/no-confusing-void-expression": "off",
+    "@typescript-eslint/no-misused-promises": "off"
   }
 }
