@@ -1,5 +1,7 @@
-const myname = "Alex arcentales";
+import express from 'express';
 
-const fdsjfkds = "gfdsg 'gfd' gs";
+const app = express();
+const port = 3000;
 
-console.log("Hello world my name is", myname);
+app.get('/', (req, res) => res.send('Hello World!'));
+app.listen(port, () => console.log(`Example app listening on port ${port}!`));
